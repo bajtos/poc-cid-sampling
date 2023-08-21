@@ -1,0 +1,51 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@ipld/dag-cbor':
+    specifier: ^9.0.4
+    version: 9.0.4
+  '@multiformats/blake2':
+    specifier: ^1.0.13
+    version: 1.0.13
+  multiformats:
+    specifier: ^12.0.1
+    version: 12.0.1
+
+packages:
+
+  /@ipld/dag-cbor@9.0.4:
+    resolution: {integrity: sha512-HBNVngk/47pKNLTAelN6ORWgKkjJtQj96Xb+jIBtRShJGCsXgghj1TzTynTTIp1dZxwPe5rVIL6yjZmvdyP2Wg==}
+    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
+    dependencies:
+      cborg: 2.0.4
+      multiformats: 12.0.1
+    dev: false
+
+  /@multiformats/blake2@1.0.13:
+    resolution: {integrity: sha512-T1Kzya0wjj85CaVeRSpJ858EnSvW1pw94GSitxYf84VsNdv5XYbJ6QG8y26Ft1bVALzrUCmqkQrR53QHSyu6RA==}
+    dependencies:
+      blakejs: 1.2.1
+      multiformats: 9.9.0
+    dev: false
+
+  /blakejs@1.2.1:
+    resolution: {integrity: sha512-QXUSXI3QVc/gJME0dBpXrag1kbzOqCjCX8/b54ntNyW6sjtoqxqRk3LTmXzaJoh71zMsDCjM+47jS7XiwN/+fQ==}
+    dev: false
+
+  /cborg@2.0.4:
+    resolution: {integrity: sha512-QradkXyNBLIyg1XNxcoXqUG4stcOhfuR1uexq+qNzL+EvFV5TXvN+c+LCh5XXxTv2fjBIkNB+3I6IO17EnKuKg==}
+    hasBin: true
+    dev: false
+
+  /multiformats@12.0.1:
+    resolution: {integrity: sha512-s01wijBJoDUqESWSzePY0lvTw7J3PVO9x2Cc6ASI5AMZM2Gnhh7BC17+nlFhHKU7dDzaCaRfb+NiqNzOsgPUoQ==}
+    engines: {node: '>=16.0.0', npm: '>=7.0.0'}
+    dev: false
+
+  /multiformats@9.9.0:
+    resolution: {integrity: sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==}
+    dev: false
